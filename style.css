@@ -1,0 +1,399 @@
+#img{
+    width: 400px;
+    height: 200px ;
+    margin: 100px;
+	margin-left: 470px;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 8);
+	
+	position: relative;
+	animation-name: anime;
+	animation-duration: 4s;
+	animation-delay: 2s;
+	animation-iteration-count: 5;
+}
+
+
+@keyframes anime{
+
+0% {background-color: red; left: 300px; top: 0px;}
+25% {background-color: yellow;left: 00px; top: 0px;}
+50% {background-color: blue;right: 300px; top: 300px;}
+75% {background-color: green;right: 00px; top: 00px;}
+100% {background-color: red;right: 000px; top: 0px;}
+
+
+}
+
+
+#img2{
+width: 500px;
+height: 300px;
+margin: 50px 400px 50px 400px;
+
+}
+
+#p1{
+
+	box-sizing: 100% auto;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 2);
+	padding-left: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 50px;
+	height: 100%;
+	font-size: 25px;
+}
+
+
+#end{
+	background: black;
+	color: white;
+
+	text-align: center;
+	margin: 20px auto;
+	padding: 70px 20px 20px 20px ;
+   
+
+}
+
+
+
+
+body{
+
+background-image: radial-gradient(#0056d9, #0091e3, #00bac8 , #9dd9be, #f1f6e5) ;
+}
+
+
+/*img:hover{
+
+background: black;
+color:white ;
+cursor: pointer;
+}*/
+p:hover{
+
+background: white;
+color:black ;
+cursor: pointer;
+
+}
+
+#head{
+
+   font-style:oblique  ;
+   font-weight: bolder;
+   font-size:70px ;
+   text-shadow: 9px 2px 18px #0000FF;
+	color: white;
+	text-align: center;
+}
+
+
+#image5 {
+   width: 50px;
+   height: 50px;
+}
+
+
+
+
+
+
+
+#your{
+ font-size:40px ;
+text-shadow: 2px 2px 8px #000000;
+	text-align: center;
+	padding: 00px ;
+	margin-top: 0;
+}
+
+
+
+
+
+
+#doc{
+
+	background-image: linear-gradient(to right, #0056d9, #0091e3, #00bac8 , #9dd9be, #f1f6e5) ;
+   text-shadow: 2px 2px 8px #FFFFFF;
+    color: black;
+}
+
+#info{
+background: darkblue;
+color: white;
+font-size:20px ;
+position: absolute;
+width: 200px;
+height: 30px;
+margin-left: 550px;
+margin-top: 50px;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 3.0);
+padding: 10px 0px 10px 0px;
+
+
+text-align: center;
+}
+
+#about{
+background: black;
+color: white;
+font-size:20px ;
+position: absolute;
+width: 50%;
+height: 50px;
+margin: 50px 500px 50px 500px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 3.0);
+padding: 30px 0px 0px 0px;
+
+text-align: center;
+}
+
+
+#before1{
+	padding-left:50px ;
+}
+
+
+
+
+#home{
+	text-align: right;
+	bottom: 200px;
+	font-size: 20px;
+}
+
+
+#contact{
+
+	text-align: center;
+	font-style: oblique;
+font-weight: bold;
+}
+
+
+form {
+	text-align: center;
+}
+
+#submit{
+	background-image: blue;
+	color: blueviolet;
+	font-style: oblique;
+}
+
+
+#img7{
+	height: 100px;
+	width: 330px;
+	padding-left: 500px;
+}
+
+
+
+
+
+
+
+
+
+/*.rain{
+	background:black;
+   font-family: poppins;
+   text-transform: uppercase;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+
+}*/
+
+
+
+nav{
+
+	font-family: montserret;
+   height: 120px;
+   background: #0082e6;
+   width: 100%;
+   position: fixed;
+  
+}
+
+label.logo{
+	color: white;
+	background: linear-gradient(45deg ,rgba(255, 254, 254, 0.795) 0%, #ffffff 100%);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	font-size: 50px;
+	line-height: 80px;
+	padding-top: 50px;
+	font-weight: bold;
+	padding-left: 100px;
+	
+	
+}
+
+
+
+nav ul{
+float: right;
+margin-right: 20px;
+padding-top: 20px;
+
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 20px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active ,a:hover{
+background: #1b9bff;
+transition: .5s;
+}
+
+.checkbtn{
+font-size: 30px;
+color: white;
+float: right;
+line-height: 80px;
+margin-right: 40px;
+display: none;
+
+}
+
+#check{
+	display: none;
+}
+
+
+@media (max-width: 952px){
+
+label.logo{
+font-size: 30px;
+padding-left: 50px;
+}
+nav ul li a{
+	font-size: 20p
+	x;
+}
+
+}
+
+@media (max-width: 858px)
+{
+.checkbtn{
+
+	display: block;
+}
+ul{
+
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #2c3e50;
+	top: 80px;
+	left: 0;
+   text-align: center;
+   transition: all .5s;
+}
+nav ul li{
+	display: block;
+	margin: 50px 0;
+	line-height: 30px;
+	display: none;
+}
+nav ul li a{
+	font-size: 20px;
+}
+a:hover,a.active{
+	background: none;
+	color: #0082e6;
+}
+#check:checked ~ ul{
+
+	left: 0;
+}
+
+}
+
+@media(max-width: 1020px){
+
+body{
+	width: 1350px;
+	background-size: 1350px;
+}
+nav{
+	height: 200px;
+}
+
+
+
+}
+
+@media (max-width:1020px){
+p1{
+	width: 100%;
+	height: 100%;
+	box-sizing: 100% auto;
+	
+}
+
+}
+
+@media (max-width:1020px){
+form{
+	width: 100%;
+	height: 100%;
+   text-align: center;
+}
+
+}
+
+@media (max-width:1350px){
+
+	my{
+		width: 100%;
+		height:100%:
+	}
+
+}
+
+#img8{
+	width: 200px;
+	height: 200px;
+	
+	margin-top: 100px;
+}
+
+
+#my{
+
+	background:#0d5875;
+	color: #fcf6f6;
+	height: 600px;
+	text-align: center;
+}
+
+
+@media (max-width: 100%){
+   end {
+   	width: 100%;
+   	height: 100%;
+
+   }
+
+}
+
+
+
